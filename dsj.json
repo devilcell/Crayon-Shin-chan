@@ -1,0 +1,12 @@
+{
+  "name": "电视家订阅",
+  "author": "elecV2p",
+  "mitmhost": ["api.gaoqingdianshi.com"],
+  "rewrite": [
+    {
+      "match": "http://user.gaoqingdianshi.com/api/v3/user/info",
+      "target": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/dsj.js",
+      "enable": true
+    }
+  ]
+}
